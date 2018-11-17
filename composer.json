@@ -1,0 +1,32 @@
+{
+    "name": "nguyentranchung/laravel-google-recaptcha",
+    "description": "Google recaptcha v2",
+    "type": "laravel-package",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chung Nguyen",
+            "email": "admin@chungnguyen.xyz"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ChungNT\\GoogleRecaptcha\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ChungNT\\GoogleRecaptcha\\GoogleRecaptchaServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
