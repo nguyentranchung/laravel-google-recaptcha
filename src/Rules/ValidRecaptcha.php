@@ -1,6 +1,6 @@
 <?php
 
-namespace ChungNT\GoogleRecaptcha\Rules;
+namespace NguyenTranChung\GoogleRecaptcha\Rules;
 
 use GuzzleHttp\Client;
 use Illuminate\Contracts\Validation\Rule;

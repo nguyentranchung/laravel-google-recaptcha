@@ -1,6 +1,6 @@
 <?php
 
-namespace ChungNT\GoogleRecaptcha;
+namespace NguyenTranChung\GoogleRecaptcha;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Validator;
