@@ -37,10 +37,10 @@ class PostStoreRequest extends FormRequest
      */
     public function rules()
     {
-    return [
-        // ...
-        'g-recaptcha-response' => 'required|recaptcha',
-    ];
+        return [
+            // ...
+            'g-recaptcha-response' => 'required|recaptcha',
+        ];
     }
 }
 ```
