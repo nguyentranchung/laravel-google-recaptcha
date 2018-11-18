@@ -6,6 +6,12 @@
 composer require nguyentranchung/laravel-google-recaptcha
 ```
 
+## In .env
+```
+GOOGLE_RECAPTCHA_KEY="your-google-recaptcha-key"
+GOOGLE_RECAPTCHA_SECRET="your-google-recaptcha-secret"
+```
+
 ## In view
 
 ```php
