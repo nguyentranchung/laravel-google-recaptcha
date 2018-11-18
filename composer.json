@@ -14,13 +14,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "ChungNT\\GoogleRecaptcha\\": "src/"
+            "NguyenTranChung\\GoogleRecaptcha\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ChungNT\\GoogleRecaptcha\\GoogleRecaptchaServiceProvider"
+                "NguyenTranChung\\GoogleRecaptcha\\GoogleRecaptchaServiceProvider"
             ]
         }
     },
